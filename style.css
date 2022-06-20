@@ -1,0 +1,163 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-size:cover;
+    -moz-background-size:cover;
+    -webkit-background-size:cover;
+}
+a {
+  text-decoration: none;
+}
+.header {
+  display: block;
+  z-index: 1;
+  position: absolute;
+  margin-left: 4%;
+  background-size: cover;
+  margin-top: 2%;
+}
+.nav {
+  display: inline-block;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  color: #A8A8A8;
+  font-size: 100%;
+  font-family: "Franklin Gothic Medium";
+  font-weight: normal;
+  margin-top: 2%;
+}
+.name {
+   font-family: Impact;
+   font-size: 1200%;
+   color: #1CFFCC;
+  text-shadow: 0 0 100px rgba(63,107,120, .9);
+}
+.left {
+  margin-left: 16rem;
+  margin-top: 13rem;
+  position: absolute;
+}
+.frontend {
+  margin-top: -15%;
+  font-size: 150%;
+  margin-left: 3%;
+  color: #848484;
+  font-family:  "Franklin Gothic Medium";
+}
+.home #line {
+  width: 9.3%;
+  padding-top: 1%;
+  margin-left: 2.7rem;
+  margin-top: -.1%;
+
+  background-color: #1CFFCC;
+  border: none;
+  margin-right: 0;
+}
+.web #line {
+  width: 9.3%;
+  padding-top: 1%;
+  margin-left: 11.3rem;
+  margin-top: -.1%;
+  background-color: #1CFFCC;
+  border: none;
+}
+.art #line {
+  width: 9.3%;
+  padding-top: 1%;
+  margin-left: 19.4rem;
+  margin-top: -.1%;
+  background-color: #1CFFCC;
+  border: none;
+}
+.contact #line {
+  width: 9.3%;
+  padding-top: 1%;
+  margin-left: 28.5rem;
+  margin-top: -.1%;
+  background-color: #1CFFCC;
+  border: none;
+}
+ #particles-js {
+   width: 100%;
+   height: 100%;
+   background: linear-gradient(0.35turn, #4A4D5E, #000000);
+   padding-bottom: 5%;
+    z-index: -1;
+ }
+ .name {
+   font-family: Impact;
+   color: #1CFFCC;
+   font-size: 9vw;
+   line-height: 9vw;
+ }
+ .name {
+   animation: neon 2s ease infinite;
+   -moz-animation: neon 2s ease infinite;
+   -webkit-animation: neon 2s ease infinite;
+ }
+ @keyframes neon {
+   0%,
+   100% {
+     text-shadow: 0 0 1vw #00BD92;
+     color: #1CFFCC;
+   }
+   50% {
+     text-shadow: 0 0 .6vw #00BD92;
+     color: #1CFFCC;
+   }
+ }
+.smoke{
+  width: 100%;
+  position: absolute;
+}
+.name {
+  text-align: left;
+  width: 100%;
+
+}
+.firstname {
+  display: inline-block;
+}
+.lastname {
+  display: block;
+  margin-top: -35%;
+}
+
+#particles-js {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(0.35turn, #4A4D5E, #000000);
+  padding-bottom: 5%;
+
+}
+.letter {
+  font-family: Impact, "Franklin Gothic Bold", "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+  color: #1CFFCC;
+  font-size: 11vw;
+  line-height: 9vw;
+  display: inline-block;
+  animation: neon 2s ease infinite;
+  -moz-animation: neon 2s ease infinite;
+  -webkit-animation: neon 2s ease infinite;
+  z-index: 1;
+}
+.letter:hover {
+  color: #000000;
+}
+
+@keyframes neon {
+  0%,
+  100% {
+    text-shadow: 0 0 1vw #00BD92;
+    color: #1CFFCC;
+  }
+  50% {
+    text-shadow: 0 0 .6vw #00BD92;
+    color: #1CFFCC;
+  }
+}
+
+.bod {
+  position: relative;
+}
