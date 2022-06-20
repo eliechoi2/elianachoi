@@ -1,7 +1,7 @@
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(700px, 1fr));
-  grid-gap: .5rem;
+  grid-gap: .2%;
   position: absolute;
   margin-top: 6%;
   width: 100%;
@@ -93,5 +93,5 @@
 }
 .entire {
   background: linear-gradient(0.35turn, #4A4D5E, #000000);
-  padding-bottom: 55%;
+  padding-bottom: 80%;
 }
