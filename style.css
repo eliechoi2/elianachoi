@@ -15,13 +15,14 @@ a {
   margin-left: 4%;
   background-size: cover;
   margin-top: 2%;
+  width: 100%;
 }
 .nav {
   display: inline-block;
-  margin-left: 3rem;
-  margin-right: 3rem;
+  margin-left: 3%;
+  margin-right: 3%;
   color: #A8A8A8;
-  font-size: 100%;
+  font-size: .6vw;
   font-family: "Franklin Gothic Medium";
   font-weight: normal;
   margin-top: 2%;
@@ -33,21 +34,22 @@ a {
   text-shadow: 0 0 100px rgba(63,107,120, .9);
 }
 .left {
-  margin-left: 16rem;
-  margin-top: 13rem;
+  margin-left: 10%;
+  margin-top: 7%;
   position: absolute;
 }
 .frontend {
   margin-top: -15%;
-  font-size: 150%;
+  font-size: 1vw;
   margin-left: 3%;
   color: #848484;
   font-family:  "Franklin Gothic Medium";
+
 }
 .home #line {
-  width: 9.3%;
-  padding-top: 1%;
-  margin-left: 2.7rem;
+  width: 2vw;
+  padding-top: .3vw;
+  margin-left: 2.8%;
   margin-top: -.1%;
 
   background-color: #1CFFCC;
@@ -55,25 +57,25 @@ a {
   margin-right: 0;
 }
 .web #line {
-  width: 9.3%;
-  padding-top: 1%;
-  margin-left: 11.3rem;
+  width: 2vw;;
+  padding-top: .3vw;
+  margin-left: 10.4%;
   margin-top: -.1%;
   background-color: #1CFFCC;
   border: none;
 }
 .art #line {
-  width: 9.3%;
-  padding-top: 1%;
-  margin-left: 19.4rem;
+  width: 2vw;
+  padding-top: .3vw;
+  margin-left: 17.7%;
   margin-top: -.1%;
   background-color: #1CFFCC;
   border: none;
 }
 .contact #line {
-  width: 9.3%;
-  padding-top: 1%;
-  margin-left: 28.5rem;
+  width: 2vw;
+  padding-top: .3vw;
+  margin-left: 25.5%;
   margin-top: -.1%;
   background-color: #1CFFCC;
   border: none;
